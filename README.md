@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+[botname] /remu add (?<name>\S+) (?<regexp>\S+) (?<action>.+)/ - register action
+[botname] /remu detail (?<name>\S+)/ - detail regexp action
+[botname] /remu list/ - list regexp actions
+[botname] /remu remove (?<name>\S+)/ - remove regexp action
+```
 
 ## Development
 
