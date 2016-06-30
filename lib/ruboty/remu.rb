@@ -1,11 +1,6 @@
 require "ruboty/remu/version"
 
 module Ruboty
-  module Remu
-    # Your code goes here...
-  end
-end
-module Ruboty
   module Handlers
     class Remu < Base
       NAMESPACE = "remu"
