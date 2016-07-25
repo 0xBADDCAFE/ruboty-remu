@@ -5,7 +5,7 @@ module Ruboty
     class Remu < Base
       NAMESPACE = "remu"
       on(
-        /remu add (?<name>\S+) (?<regexp>\S+) (?<action>.+)/,
+        /remu add (?<name>\S+) (?<regexp>\S+) (?<action>.+)/m,
         name: 'add',
         description: 'register action',
       )
